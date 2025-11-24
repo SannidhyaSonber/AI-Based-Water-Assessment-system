@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+
+#file_name = input("Enter the Excel file name (with .xlsx extension): ")
+#file_path = file_name + ".xlsx"
+#df = pd.read_csv("D:\Project Exhibition\karbala.csv")# sheet_name='2011-2012')
+
+df = pd.read_excel("D:/Project Exhibition/Tryl.xlsx")
+print(df.head())
+print("Done")
+
+
+
+'''
+for i in range (2011,2024):    
+    sheet = str(i) + '-' + str(i+1)
+    df = pd.read_excel(file_path, sheet_name=sheet)
+    print(sheet,'Opened')
+    #processed_data_frame = process_data(df)
+    output_file = "new.xlsx"
+    #kwrite_excel_file(df, output_file)
+    break
+'''
